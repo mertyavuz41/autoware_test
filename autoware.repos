@@ -88,10 +88,10 @@ repositories:
     url: https://github.com/autowarefoundation/managed_transform_buffer.git
     version: 0.1.0
   # launcher
-  launcher/autoware_launch:
-    type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 0.43.1
+  #launcher/autoware_launch:
+  #  type: git
+  #  url: https://github.com/autowarefoundation/autoware_launch.git
+  #  version: 0.43.1
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
@@ -112,7 +112,26 @@ repositories:
     url: https://github.com/autowarefoundation/ros2_socketcan
     version: e39a814180b03f00a5692b6951a5d4e9f0463486
   # param
+  #param/autoware_individual_params:
+  #  type: git
+  #  url: https://github.com/autowarefoundation/autoware_individual_params.git
+  #  version: 70000825155182d9261ce0980076b0e2c6dc3f51
+  
+  
+  ### ADASTEC ###
+  # param
   param/autoware_individual_params:
     type: git
-    url: https://github.com/autowarefoundation/autoware_individual_params.git
-    version: 70000825155182d9261ce0980076b0e2c6dc3f51
+    url: https://github.com/adastec/flowride.autoware_individual_params.git
+    version: adastec_autoware_test_studies
+
+  launcher/autoware_launch:
+    type: git
+    url: https://github.com/mertyavuz41/autoware_launch.git
+    version: autoware_test_studies
+
+  # Ouster ROS2 drivers
+  sensor_component/external/ouster-ros:
+    type: git
+    url: https://github.com/ouster-lidar/ouster-ros.git
+    version: ros2  
